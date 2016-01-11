@@ -1,6 +1,8 @@
 module.exports = {
   main: {
-    src: 'app',
+    expand: true,
+    cwd: 'app/',
+    src: ['**'],
     dest: 'build'
     }
 };
